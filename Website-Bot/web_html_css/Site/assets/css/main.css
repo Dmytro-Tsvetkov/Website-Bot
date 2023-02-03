@@ -1,0 +1,214 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.containerHeader{
+    max-width: 1396px;
+    width: 100%;
+    margin: 60px 262px;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnLog{
+    margin-right: 20px;
+}
+
+.btn {
+    font-family: "Bebas Neue", serif;
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 134px;
+    border: none;
+    color: black;
+    text-decoration: none;
+    border-radius: 150px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 10px 0px grey;
+    border-radius: 150px;
+    transition: background .2s linear, color .2s linear;
+}
+
+.infoBot{
+    margin-top: 120px;
+}
+
+.btnTest{
+    width: 546px;
+    height: 106px;
+    font-size: 50px;
+    border-radius: 90px;
+    color: white;
+    background-color: #3a3a3a;
+    box-shadow: 5px 5px 10px 0px grey;
+}
+
+.btnTest:hover{
+    background-color: black;
+    box-shadow: 5px 5px 10px 0px grey;
+    transition: background .2s linear, color .2s linear;
+}
+
+.btnTestMain{
+    margin-top: 170px;
+}
+
+.sectionFirst{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.mainText{
+    font-size: 40px;
+}
+
+.secondText{
+    font-size: 25px;
+}
+
+.leftFirst{
+    width: 1020px;
+}
+
+.rightFirst{
+    margin-top: 105px;
+    margin-right: 100px;
+}
+
+.sectionSecond{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.leftSecond{
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.remarkText{
+    font-size: 50px;
+    margin-left: 140px;
+    margin-top: 115px;
+    margin-bottom: 0px;
+}
+
+.btnSecond{
+    margin-left: 140px;
+}
+
+.inner{
+    width: 100%;
+    height: 830px;
+    background-color: #F3F3F3;
+}
+
+.benefitMain{
+    margin-top: 100px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.table{
+    font-family: "Bebas Neue", serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+li{
+    margin-top: 30px;
+    padding-left: 7px;
+}
+
+li::marker{
+    content: url("../img/svg/pin.svg");
+    height: 25px;
+}
+
+.sectionThird{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.btnThird{
+    margin-top: 80px;
+}
+
+.rightThirdImg{
+    margin-top: 160px;
+}
+
+.footer{
+    width: 100%;
+    height: 362px;
+    background-color: #060606;
+}
+
+.mainHeader{
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+.foot{
+    font-size: 20px;
+    margin: 0px;
+}
+
+.up{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 415px;
+    padding-left: 404px;
+    padding-top: 60px;
+}
+
+.textDown{
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    margin-top: 50px;
+}
+
+.down{
+    display: flex;
+    justify-content: center;
+}
+
+.containerFooter{
+    
+}
